@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @RenderSection("Style", false)
+    @RenderSection("Script", false)
+</head>
+<body>
+<main>
+ <header>
+   <nav>
+     <div class="logo-Type">Ama-hasl-Bank</div>
+      <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Пополнить</a></li>
+          <li><a href="#">Переводы</a></li>
+          <li><a href="#">О нас</a></li>
+      </ul>
+      <div class="user-name-and-second-name-and-avatar">
+            <div class="user-name-and-second-name">Али Саад</div>
+            <button class="avatar">+</button>
+            <div class="exit">Выйти</div>
+      </div>
+      
+   </nav>  
+ </header>
+</main>
+    @RenderBody()
+    <footer>
+        Все права защищены! 2024 год.
+    </footer>
+</body>
+</html>
