@@ -1,32 +1,32 @@
-using InternetBanking.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace InternetBanking.Controllers
 {
     public class InternetBanking : Controller
     {
-        private readonly ILogger<InternetBanking> _logger;
-
-        public InternetBanking(ILogger<InternetBanking> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        public IActionResult BankCardsList()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Profile()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Login()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
+        }
+
+        public IActionResult Registation()
+        {
+            return View("About");
+        }
+
+        public IActionResult About()
+        {
+            return View();
         }
     }
 }

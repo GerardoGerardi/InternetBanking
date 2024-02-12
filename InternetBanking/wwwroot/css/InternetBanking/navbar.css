@@ -1,0 +1,68 @@
+﻿
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: midnightblue;
+    color: white;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 5em;
+}
+
+.user-name-and-second-name-and-avatar {
+    display: flex;
+    align-items:center;
+    gap:2em;
+}
+
+ul li {
+
+}
+
+.logo-Type {
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    font-size: 24px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+    font-weight: bold; /* Жирный */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    display: flex;
+    align-items: center;
+}
+
+    .logo-Type::before {
+        content: '\1F512'; /* Юникод символ замка */
+        font-size: 30px; /* Размер иконки */
+    }
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+        ul li a:hover {
+            color: darkred;
+        }
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.exit {
+    display: flex;
+}

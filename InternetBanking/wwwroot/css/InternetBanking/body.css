@@ -1,0 +1,11 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+main {
+    flex: 1; /* Занимаем доступное пространство внутри родительского flex-контейнера */
+}

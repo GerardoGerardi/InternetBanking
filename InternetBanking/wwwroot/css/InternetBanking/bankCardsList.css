@@ -1,0 +1,57 @@
+﻿
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sender-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-content: flex-start;
+    flex-wrap:wrap;
+}
+.sender-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 64px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.beneficiary-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.beneficiary-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 64px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
